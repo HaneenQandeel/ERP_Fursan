@@ -6,3 +6,13 @@ frappe.ui.form.on('Travel Order', {
 
 	}
 });
+
+
+cur_frm.set_query("routing", "travel_order_passenger", function(doc, cdt, cdn) {
+	var row = locals[cdt][cdn];
+	return{
+		filters: [
+			['Routing', 'active', '=', 1]
+		]
+	}
+});
