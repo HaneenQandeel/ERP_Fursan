@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include fursan *.css
+recursive-include fursan *.csv
+recursive-include fursan *.html
+recursive-include fursan *.ico
+recursive-include fursan *.js
+recursive-include fursan *.json
+recursive-include fursan *.md
+recursive-include fursan *.png
+recursive-include fursan *.py
+recursive-include fursan *.svg
+recursive-include fursan *.txt
+recursive-exclude fursan *.pyc
