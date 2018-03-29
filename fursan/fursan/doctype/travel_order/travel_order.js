@@ -16,3 +16,8 @@ cur_frm.set_query("routing", "travel_order_passenger", function(doc, cdt, cdn) {
 		]
 	}
 });
+
+frappe.listview_settings['Travel Order'] = {
+	add_fields: ["customer", "date", "routing", "type",
+		"flight", "time"]
+};

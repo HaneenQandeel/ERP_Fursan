@@ -7,4 +7,6 @@ import frappe
 from frappe.model.document import Document
 
 class Routing(Document):
-	pass
+    pass
+    # def validate(self):
+    #     self.name=str(self.routing_from)+str(self.routing_to)

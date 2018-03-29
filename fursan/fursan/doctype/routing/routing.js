@@ -5,9 +5,17 @@ frappe.ui.form.on('Routing', {
 	refresh: function(frm) {
 
 	},
-	routing_name :function(frm) { 
-		cur_frm.doc.routing_name = cur_frm.doc.from + cur_frm.doc.to
-		frm.setvalue("routing_name",cur_frm.doc.routing_name)
+	routing_from :function(frm) {
+		if (cur_frm.doc.routing_from && cur_frm.doc.routing_to){
+			frm.set_value("naming",cur_frm.doc.routing_from + '/' + cur_frm.doc.routing_to )
+		}
+
+	},
+	routing_to : function(frm) {
+		if (cur_frm.doc.routing_to && cur_frm.doc.routing_from){
+			frm.set_value("naming",cur_frm.doc.routing_from + '/' + cur_frm.doc.routing_to )
+		}
+
 	}
 
 });
