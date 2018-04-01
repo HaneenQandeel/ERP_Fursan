@@ -1,0 +1,121 @@
+{
+ "accept_payment": 0, 
+ "allow_comments": 1, 
+ "allow_delete": 1, 
+ "allow_edit": 1, 
+ "allow_incomplete": 0, 
+ "allow_multiple": 1, 
+ "allow_print": 0, 
+ "amount": 0.0, 
+ "amount_based_on_field": 0, 
+ "breadcrumbs": "[{\"label\":_(\"Travel Order\"), \"route\":\"travel-order\"}]", 
+ "creation": "2018-04-01 12:07:10.859639", 
+ "currency": "ILS", 
+ "doc_type": "Travel Order", 
+ "docstatus": 0, 
+ "doctype": "Web Form", 
+ "idx": 0, 
+ "introduction_text": "Haneen", 
+ "is_standard": 1, 
+ "login_required": 1, 
+ "max_attachment_size": 0, 
+ "modified": "2018-04-01 14:26:03.360299", 
+ "modified_by": "Administrator", 
+ "module": "Fursan", 
+ "name": "travel-order", 
+ "owner": "Administrator", 
+ "payment_button_label": "Buy Now", 
+ "published": 1, 
+ "route": "travel-order", 
+ "show_sidebar": 1, 
+ "sidebar_items": [
+  {
+   "enabled": 1, 
+   "reference_doctype": "Travel Order", 
+   "role": "Customer", 
+   "route": "/travel-order", 
+   "title": "Travel Order"
+  }, 
+  {
+   "enabled": 1, 
+   "reference_doctype": "Agency", 
+   "role": "Customer", 
+   "route": "/agency", 
+   "title": "Agency"
+  }, 
+  {
+   "enabled": 1, 
+   "reference_doctype": "Routing", 
+   "role": "Customer", 
+   "route": "/routing", 
+   "title": "Routing"
+  }
+ ], 
+ "success_url": "/travel-order", 
+ "title": "Travel Order", 
+ "web_form_fields": [
+  {
+   "fieldname": "posting_date", 
+   "fieldtype": "Date", 
+   "hidden": 0, 
+   "label": "Posting Date", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "to_agency", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "To Agency ", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "Agency", 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "from_agency", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "From Agency", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "Agency", 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "travel_order_passenger", 
+   "fieldtype": "Table", 
+   "hidden": 0, 
+   "label": "Travel Order Passenger", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "Travel Order Passenger", 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "signature", 
+   "fieldtype": "Attach", 
+   "hidden": 0, 
+   "label": "Signature", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "remarks", 
+   "fieldtype": "Small Text", 
+   "hidden": 0, 
+   "label": "Remarks", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }
+ ]
+}
