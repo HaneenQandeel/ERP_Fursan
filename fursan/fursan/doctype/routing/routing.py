@@ -10,3 +10,4 @@ class Routing(Document):
     pass
     # def validate(self):
     #     self.name=str(self.routing_from)+str(self.routing_to)
+    
