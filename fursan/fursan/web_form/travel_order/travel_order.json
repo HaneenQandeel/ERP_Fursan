@@ -19,7 +19,7 @@
  "is_standard": 1, 
  "login_required": 1, 
  "max_attachment_size": 0, 
- "modified": "2018-04-01 14:26:03.360299", 
+ "modified": "2018-04-02 11:37:35.053247", 
  "modified_by": "Administrator", 
  "module": "Fursan", 
  "name": "travel-order", 
@@ -55,6 +55,7 @@
  "title": "Travel Order", 
  "web_form_fields": [
   {
+   "default": "", 
    "fieldname": "posting_date", 
    "fieldtype": "Date", 
    "hidden": 0, 
@@ -62,29 +63,29 @@
    "max_length": 0, 
    "max_value": 0, 
    "read_only": 0, 
-   "reqd": 0
+   "reqd": 1
   }, 
   {
    "fieldname": "to_agency", 
-   "fieldtype": "Data", 
+   "fieldtype": "Link", 
    "hidden": 0, 
    "label": "To Agency ", 
    "max_length": 0, 
    "max_value": 0, 
    "options": "Agency", 
    "read_only": 0, 
-   "reqd": 0
+   "reqd": 1
   }, 
   {
    "fieldname": "from_agency", 
-   "fieldtype": "Data", 
+   "fieldtype": "Link", 
    "hidden": 0, 
    "label": "From Agency", 
    "max_length": 0, 
    "max_value": 0, 
    "options": "Agency", 
    "read_only": 0, 
-   "reqd": 0
+   "reqd": 1
   }, 
   {
    "fieldname": "travel_order_passenger", 
@@ -95,7 +96,7 @@
    "max_value": 0, 
    "options": "Travel Order Passenger", 
    "read_only": 0, 
-   "reqd": 0
+   "reqd": 1
   }, 
   {
    "fieldname": "signature", 
