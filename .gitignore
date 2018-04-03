@@ -4,3 +4,8 @@
 *.swp
 tags
 fursan/docs/current
+fursan/fursan/print_format/__init__\.py
+
+fursan/fursan/print_format/travel_order_test/__init__\.py
+
+fursan/fursan/print_format/travel_order_test/travel_order_test\.json
