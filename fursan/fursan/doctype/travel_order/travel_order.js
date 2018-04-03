@@ -22,21 +22,21 @@ cur_frm.set_query("routing", "travel_order_passenger", function(doc, cdt, cdn) {
 	}
 });
 
-cur_frm.set_query("from_agency", function() {
-        return {
-            filters: [
-				['Agency', 'active', '=', 1]				
+// cur_frm.set_query("from_agency", function() {
+//         return {
+//             filters: [
+// 				['Agency', 'active', '=', 1]				
 				
-			]
-        }
-});
+// 			]
+//         }
+// });
 
 
 cur_frm.set_query("to_agency", function() {
         return {
             filters: [
 				['Agency', 'active', '=', 1],
-				["Agency", "name", "!=", cur_frm.doc.from_agency ]
+				// ["Agency", "name", "!=", cur_frm.doc.from_agency ]
 			]
         }
 });
