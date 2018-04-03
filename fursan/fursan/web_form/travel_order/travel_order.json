@@ -19,7 +19,7 @@
  "is_standard": 1, 
  "login_required": 1, 
  "max_attachment_size": 0, 
- "modified": "2018-04-02 11:47:07.571305", 
+ "modified": "2018-04-02 12:16:29.845850", 
  "modified_by": "Administrator", 
  "module": "Fursan", 
  "name": "travel-order", 
@@ -62,6 +62,7 @@
    "label": "Posting Date", 
    "max_length": 0, 
    "max_value": 0, 
+   "options": "Today", 
    "read_only": 0, 
    "reqd": 0
   }, 
