@@ -5,11 +5,11 @@ frappe.ui.form.on('Travel Order', {
 	refresh: function(frm) {
 
 	},
-	validate: function(frm){
-		if (frm.doc.to_agency == frm.doc.from_agency){
-			frappe.throw("Destination cannot be the same as the Current agency");
-		}
-	}
+	// validate: function(frm){
+	// 	if (frm.doc.to_agency == frm.doc.from_agency){
+	// 		frappe.throw("Destination cannot be the same as the Current agency");
+	// 	}
+	// }
 });
 
 
