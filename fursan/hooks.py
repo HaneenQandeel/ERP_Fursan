@@ -11,6 +11,14 @@ app_color = "grey"
 app_email = "haneen@gmail.com"
 app_license = "MIT"
 
+
+
+website_context = {
+    "favicon": "/assets/fursan/images/fursan.png",
+    "splash_image": "/assets/fursan/images/fursan.png"
+    # "favicon":     "/assets/erpnext/images/favicon.png",
+    # "splash_image": "/assets/erpnext/images/erp-icon.svg"
+}
 # Includes in <head>
 # ------------------
 
